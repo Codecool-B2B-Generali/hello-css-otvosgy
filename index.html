@@ -3,25 +3,78 @@
 
 <head>
   <link rel="stylesheet" href="styles.css">
+
+  <style>
+
+		body {
+			font: 100 1.5em Helvetica, Arial, sans-serif;		
+			background-color: #f8f6e4;
+		}
+		#p-element {
+			color: #0d3f70;
+			border: 2px solid;
+			background-color: rgb(21, 100, 171);
+		}
+		#h1-element {		
+			margin-left: 50px;
+		}
+		#h2-element {		
+			padding: 20px;
+		}
+		#h3-element {	
+			width: 200px;		
+			text-align: center;
+		}
+		#h4-element {		
+			color: #f38c00;
+		}
+		h4:hover {
+			background-color: #0bb1a1;
+		}
+
+		h4#h4insidedivcolor{
+			color:  #f38c00;
+		}
+		
+		h5 {
+			display: none;
+		}
+		
+		.square {
+			width: 100px;
+			height: 100px;
+			margin: 50px;
+			border-style: solid;
+		}
+		
+		.bar {
+			height: 20px;
+			background-color: rgb(143 200 155);
+		}
+	
+	
+  </style>
 </head>
 
 <body>
 
-  <h1>This is a Heading 1</h1>
-  <h2>This is a Heading 2</h2>
-  <h2>This is a Heading 2</h2>
-  <h3>This is a Heading 3 This is a Heading 3 This is a Heading 3 This is a Heading 3 This is a Heading 3 This is a
+
+
+  <h1 id="h1-element">This is a Heading 1</h1>
+  <h2 id="h2-element">This is a Heading 2</h2>
+  <h2 id="h2-element">This is a Heading 2</h2>
+  <h3 id="h3-element">This is a Heading 3 This is a Heading 3 This is a Heading 3 This is a Heading 3 This is a Heading 3 This is a
     Heading 3 This is a Heading 3 This is a Heading 3 This is a Heading 3</h3>
   <h4>This is a Heading 4</h4>
   <div>
-    <h4>This is a heading4 inside a div</h4>
+    <h4 id="h4-element">This is a heading4 inside a div</h4>
     <div>
       <h5>This is a Heading 5</h5>
-      <p id="unique-element">This should be blue.</p>
-      <p>This is a paragraph.</p>
+      <p id="p-element">This should be blue.</p>
+      <p id="p-element">This is a paragraph.</p>
       <div class="special">
-        <p>This is another paragraph.</p>
-        <p>This is the last paragraph.</p>
+        <p id="p-element">This is another paragraph.</p>
+        <p id="p-element">This is the last paragraph.</p>
       </div>
 
       <div class="square"></div>
